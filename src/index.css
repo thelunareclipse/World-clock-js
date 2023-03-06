@@ -3,4 +3,11 @@ h1 {
 }
 footer {
   text-align: center;
+  padding: 10px;
+}
+form {
+  text-align: center;
+}
+.city {
+  text-align: center;
 }
