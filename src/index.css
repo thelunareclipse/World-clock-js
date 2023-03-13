@@ -37,9 +37,22 @@ form select {
   font-family: "Bungee Hairline", cursive;
   background-color: rgba(59, 111, 88, 0.6);
 }
+.cities {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  max-width: 600px;
+  justify-content: space-around;
+  overflow: hidden;
+}
 .city {
   text-align: center;
+  border: solid 2px #3b6f58;
+  width: 130px;
+  border-radius: 160px / 160px;
 }
+
 .container {
   max-width: 600px;
   margin: 50px auto;
@@ -48,4 +61,14 @@ form select {
   border: solid 2px #3b6f58;
   border-radius: 40px;
   box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.1);
+}
+.location {
+  margin-top: 40px;
+}
+.time {
+  margin-top: 100px;
+  font-size: 28px;
+}
+.date {
+  margin-top: 85px;
 }
