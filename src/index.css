@@ -19,10 +19,18 @@ body {
 }
 h1 {
   text-align: center;
+  font-family: "Plaster", sans-serif;
+}
+a {
+  color: #e6d3a7;
+  text-decoration: none;
 }
 footer {
   text-align: center;
   padding: 10px;
+}
+footer a {
+  text-decoration: underline;
 }
 form {
   text-align: center;
