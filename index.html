@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Plaster&family=Syncopate&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
   </head>
   <body>
@@ -26,28 +28,28 @@
         </select>
       </form>
       <div class="cities">
-        <div class="city">
+        <div class="city" id="tokyo">
           <div>
             <h2 class="location">Tokyo 🇯🇵</h2>
             <div class="time">2:22:22 AM</div>
             <div class="date">March 7, 2023</div>
           </div>
         </div>
-        <div class="city">
+        <div class="city" id="milan">
           <div>
             <h2 class="location">Milan 🇮🇹</h2>
             <div class="time">6:24:22 PM</div>
             <div class="date">March 6, 2023</div>
           </div>
         </div>
-        <div class="city">
+        <div class="city" id="buenos-aires">
           <div>
             <h2 class="location" style="font-size: 14.5px">Buenos Aires 🇦🇷</h2>
             <div class="time">2:25:22 PM</div>
             <div class="date">March 6, 2023</div>
           </div>
         </div>
-        <div class="city">
+        <div class="city" id="hanoi">
           <div>
             <h2 class="location">Hanoi 🇻🇳</h2>
             <div class="time">12:26:22 AM</div>
